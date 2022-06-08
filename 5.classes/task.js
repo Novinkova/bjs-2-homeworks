@@ -142,21 +142,3 @@ console.log(library.findBookBy("releaseDate", 1924).name); //"Мурзилка"
 console.log("Количество книг до выдачи: " + library.books.length); //Количество книг до выдачи: 4
 library.giveBookByName("Машина времени");
 console.log("Количество книг после выдачи: " + library.books.length); //Количество книг после выдачи: 3
-
-
-
-// 3rd task
-
-class Student {
-
-  constructor(addMark, getAverageBySubject, getAverage, exclude) {
-    this.addMark = [];
-    this.getAverageBySubject = getAverageBySubject;
-    this.getAverage = getAverage;
-    this.exclude = exclude;
-  }
-}
-
-function checkMarks() {
-  // if (this.addMark == "algebra" )
-}
